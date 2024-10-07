@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-light-green: #61e294;
+  --color-tiffany-blue: #7bcdba;
+  --color-cool-gray: #9799ca;
+  --color-wisteria: #bd93d8;
+  --color-lavender: #b47aea;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +22,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-color: #1f2937; /* Tailwind gray-750 */
   font-family: Arial, Helvetica, sans-serif;
 }
 
